@@ -29,7 +29,10 @@ ng version // check angular version
 
 ANGULAR
 
-ng new project-name // create new angular project
+ng new project-name --standalone false // create new angular project
 cd ./project-name // go to project folder
 ng serve // run project locally
 npm install // install dependencies of project (node modules)
+
+
+ng g c component_name // create new component.

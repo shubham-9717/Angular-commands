@@ -1,0 +1,35 @@
+// nvm and node installation
+-nvm list available
+-nvm install lts
+-nvm install 20
+-nvm list
+-nvm use 20.20.2
+
+//Angular installation
+-npm install -g @angular/cli@17
+
+{
+ng : File C:\Program Files\nodejs\ng.ps1 cannot be loaded because running scripts is disabled on this system. For more
+information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
+}-> if got this error use following command
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+-ng version
+
+//git config
+git config --global user.email "you@example.com"
+git config --global user.name angular.user
+git config --global user.password Angular@123
+git config --list
+
+
+node -v // check node version
+ng version // check angular version
+
+ANGULAR
+
+ng new project-name // create new angular project
+cd ./project-name // go to project folder
+ng serve // run project locally
+npm install // install dependencies of project (node modules)

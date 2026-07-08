@@ -36,3 +36,7 @@ npm install // install dependencies of project (node modules)
 
 
 ng g c component_name // create new component.
+
+ng g m module_name // create new module
+
+[(ngModel)] = "variable name"

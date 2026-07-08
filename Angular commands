@@ -40,3 +40,8 @@ ng g c component_name // create new component.
 ng g m module_name // create new module
 
 [(ngModel)] = "variable name"
+
+two way data binding :-
+steps:1 - import FormsModule
+step:2 - use [(ngModel)] = "variable name" in your input tag
+ex- <input [(ngModel)]="my_name">
